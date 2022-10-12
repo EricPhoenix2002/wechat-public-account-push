@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '2f99df386e16826a5606554cf8ad28c0',
 
-  PROVINCE: '陕西',
-  CITY: '西安',
+  PROVINCE: '河南',
+  CITY: '郑州',
 
   USERS: [
     {
@@ -29,15 +29,15 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '朱赵睿', year: '2004', date: '03-07',
+          type: '生日', name: '小猪', year: '2004', date: '04-25',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '朱赵睿', year: '2004', date: '04-25',
+          type: '生日', name: '小庞', year: '2002', date: '06-07',
         },
-        {
-          type: '节日', name: '相识纪念日', year: '2022', date: '07-12',
-        },
+      //  {
+      //    type: '节日', name: '相识纪念日', year: '2022', date: '07-12',
+       // },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
